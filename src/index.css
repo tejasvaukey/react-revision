@@ -10,5 +10,56 @@ html, body {
   width: 100%;
 }
 body{
-  background: #111;
+  background-color: #111;
 }
+
+.card {
+  background: pink;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.nav {
+  background: lightblue;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+
+}
+
+.card2 {
+  width: 300px;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #222 ;
+}
+
+.parent
+{
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.card2 p{
+  margin: 20px 0;
+}
+.card2 img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.card2 button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

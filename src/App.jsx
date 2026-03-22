@@ -1,14 +1,15 @@
 import React from 'react'
+import Card from './components/Card'
+import Navbar from './components/Navbar'
+import Button from './components/button/Button'
+import Header from './components/header/Header'
 
 const App = () => {
   return (
-    <>
-      <div id='parent'>
-        <h1 id='child1'>Hello</h1>
-        <h2 id='child2'>dost</h2>
-      </div>
-      <div id='parent2'></div>
-    </>
+    <div className='parent'> 
+      <Header />     
+      <Button />
+    </div>
   )
 }
 
