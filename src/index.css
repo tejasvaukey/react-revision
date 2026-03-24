@@ -13,7 +13,7 @@ body{
   background-color: #111;
 }
 
-.card {
+/* .card {
   background: pink;
   padding: 20px;
   border-radius: 10px;
@@ -36,14 +36,18 @@ body{
   text-align: center;
   border-radius: 10px;
   background-color: #222 ;
+} */
+
+/* .parent
+{
+   display: flex;
+  flex-wrap: wrap; 
 }
 
-.parent
-{
-  /* display: flex;
-  flex-wrap: wrap; */
-}
-.card2 p{
+*/
+
+
+/* .card2 p{
   margin: 20px 0;
 }
 .card2 img{
@@ -53,7 +57,7 @@ body{
   border-radius: 50%;
 
 }
-.card2 button {
+.card2  button {
   padding: 10px 20px;
   background-color: white;
   color: black;
@@ -61,5 +65,14 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
+  */
 
+
+
+input, button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 15px;
+  color: black;
+}
 
